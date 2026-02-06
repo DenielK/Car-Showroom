@@ -1,0 +1,86 @@
+﻿
+body {
+    background-color: #f8f9fa; 
+    color: #333;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-weight: 600;
+    color: #444 !important;
+}
+
+a {
+    color: #6c757d;
+    transition: color 0.2s ease-in-out;
+}
+
+    a:hover {
+        color: #212529;
+        text-decoration: none;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #495057; 
+    border-color: #495057;
+    border-radius: 8px; 
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+    .btn-primary:hover {
+        background-color: #343a40;
+        border-color: #343a40;
+        transform: translateY(-1px); 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #495057;
+    border-color: #495057;
+    border-radius: 8px;
+}
+
+.border-top {
+    border-top: 1px solid #dee2e6;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.box-shadow {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .05); 
+    border-radius: 12px;
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+    border-radius: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+}
+
+.main-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+}
